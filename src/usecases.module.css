@@ -1,8 +1,6 @@
 .MainWrapper {
-  width: 94%;
-  max-width: 1450px;
-
-  margin: 50px auto;
+  background-color: #f7f8fa;
+  padding: 50px 50px 50px 15px;
 
   display: grid;
 
@@ -170,7 +168,9 @@
 
   cursor: pointer;
 }
-
+.PrimaryBtn:hover {
+  background-color: #f1eded;
+}
 .SecondaryBtn {
   padding: 8px 14px;
 
@@ -188,6 +188,10 @@
   font-weight: 600;
 
   cursor: pointer;
+}
+.SecondaryBtn:hover {
+  border-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 /* =========================

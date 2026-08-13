@@ -11,13 +11,19 @@ function Navbar() {
       <div className={styles.navLinks}>
         <ul>
           <li>
-            <span>Features</span>
+            <span>
+              <a href="#features">Features</a>
+            </span>
           </li>
           <li>
-            <span>How It Works</span>
+            <span>
+              <a href="#howitworks">How It Works</a>
+            </span>
           </li>
           <li>
-            <span>Use Cases</span>
+            <span>
+              <a href="#usecases">Use Cases</a>
+            </span>
           </li>
           <li>
             <span>Pricing</span>
@@ -32,7 +38,9 @@ function Navbar() {
       </div>
       <div className={styles.login}>
         <span>
-          <button className={styles.loginBtn}>Log in</button>
+          <button id={styles.loginbtn} className={styles.loginBtn}>
+            Log in
+          </button>
         </span>
         <span>
           <GetStartedBtn value={"Get Started"}></GetStartedBtn>

@@ -45,7 +45,7 @@ function Features() {
     },
   ];
   return (
-    <div className={styles.Wrapper}>
+    <div id="features" className={styles.Wrapper}>
       <Tag value={"Features"}></Tag>
       <div className={styles.Heading}>
         Everything you need to manage architecture knowledge with confidence

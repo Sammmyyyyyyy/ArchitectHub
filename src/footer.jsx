@@ -25,8 +25,8 @@ function Footer() {
           <div className={styles.Title}>Project</div>
 
           <a href="#features">Features</a>
-          <a href="#how-it-works">How It Works</a>
-          <a href="#use-cases">Use Cases</a>
+          <a href="#howitworks">How It Works</a>
+          <a href="#usecases">Use Cases</a>
           <a href="#architecture">Architecture</a>
         </div>
 

@@ -50,7 +50,7 @@ function HowItWorks() {
   ];
 
   return (
-    <div className={styles.Wrapper}>
+    <div id="howitworks" className={styles.Wrapper}>
       <Tag value="How It Works" />
 
       <div className={styles.Heading}>

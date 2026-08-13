@@ -30,7 +30,7 @@ function UseCases() {
   ];
 
   return (
-    <div className={styles.MainWrapper}>
+    <div id="usecases" className={styles.MainWrapper}>
       {/* USE CASES */}
       <div className={styles.UseCases}>
         <Tag value="Use Cases" />

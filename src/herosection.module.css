@@ -89,6 +89,11 @@
   background-color: #ffffff;
   font-family: Inter;
 }
+.demo:hover {
+  background-color: #f7f8fa;
+  border-color: #028181;
+  cursor: pointer;
+}
 .properties {
   display: inline-flex;
   font-weight: 600;

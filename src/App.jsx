@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import "./App.css";
 import HeroSection from "./herosection";
 import Marquee from "./marquee";
 import Features from "./features";

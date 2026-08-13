@@ -1,0 +1,37 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 180px;
+  height: 170px;
+  padding: 16px 14px;
+  gap: 16px;
+  background: #ffffff;
+  border: 1px solid #e8edf2;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 35, 64, 0.03);
+}
+.Logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.Heading {
+  font-size: 13px;
+  max-width: 160px;
+  font-weight: 750;
+  color: #14243a;
+  letter-spacing: -0.5px;
+  font-family: Inter;
+}
+.Detail {
+  max-width: 130px;
+  font-size: 11px;
+  font-family: Inter;
+  font-weight: 400;
+  color: #536174;
+}

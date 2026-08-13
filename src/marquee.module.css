@@ -9,9 +9,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
-  gap: 40px;
-  padding-bottom: 40px;
+  padding-top: 32px;
+  gap: 16px;
+  padding-bottom: 32px;
   font: Inter;
   border-bottom: 2px solid #eceff2;
 }
@@ -34,10 +34,13 @@
 }
 .Reasons {
   display: flex;
+  font-family: Inter;
   align-items: center;
   white-space: nowrap;
   gap: 5px;
-  color: #52616b;
+  color: #828c92;
+  font-weight: 600;
+  font-size: 14px;
 }
 .Separator {
   font-size: 18px;

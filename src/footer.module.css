@@ -1,0 +1,203 @@
+.Footer {
+  width: 100%;
+
+  background-color: #0b1d2a;
+
+  padding: 42px 7% 18px;
+
+  font-family: Inter;
+  color: #ffffff;
+}
+
+/* =========================
+   MAIN FOOTER
+========================= */
+
+.Main {
+  display: grid;
+
+  grid-template-columns: 2fr 1fr 1fr;
+
+  gap: 70px;
+
+  max-width: 1250px;
+
+  margin: 0 auto 35px;
+}
+
+/* =========================
+   BRAND
+========================= */
+
+.Brand {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.Logo {
+  font-size: 17px;
+  font-weight: 700;
+
+  color: #ffffff;
+
+  margin-bottom: 12px;
+}
+
+.Description {
+  max-width: 330px;
+
+  font-size: 10px;
+  line-height: 1.6;
+
+  color: #9aa9b8;
+
+  margin-bottom: 16px;
+}
+
+.ProjectText {
+  font-size: 10px;
+  font-weight: 500;
+
+  color: #0caaa3;
+}
+
+/* =========================
+   COLUMNS
+========================= */
+
+.Column {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 10px;
+}
+
+.Title {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Inter;
+
+  color: #ffffff;
+
+  margin-bottom: 5px;
+}
+
+.Column a {
+  font-size: 10px;
+
+  color: #9aa9b8;
+
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.Column a:hover {
+  color: #0caaa3;
+}
+
+/* =========================
+   TEAM
+========================= */
+
+.Member {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 24px;
+
+  font-size: 9px;
+
+  color: #9aa9b8;
+}
+
+.Socials {
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+}
+
+.Socials a {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #9aa9b8;
+}
+
+.Socials a:hover {
+  color: #0caaa3;
+}
+
+/* =========================
+   BOTTOM
+========================= */
+
+.Bottom {
+  max-width: 1250px;
+
+  margin: 0 auto;
+
+  padding-top: 16px;
+
+  border-top: 1px solid #233642;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 9px;
+
+  color: #718291;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+  .Main {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 35px;
+  }
+
+  .Brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 550px) {
+  .Footer {
+    padding: 35px 7% 16px;
+  }
+
+  .Main {
+    grid-template-columns: 1fr;
+
+    gap: 28px;
+  }
+
+  .Brand {
+    grid-column: auto;
+  }
+
+  .Bottom {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 7px;
+  }
+}

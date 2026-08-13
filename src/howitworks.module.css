@@ -1,0 +1,40 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #eceff2;
+}
+
+.Heading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #0f2340;
+  text-align: center;
+  font-family: Inter;
+  max-width: 620px;
+  margin-bottom: 8px;
+}
+.Workflow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.StepWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.Arrow {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  color: #c4ccd5;
+  margin: 0 10px;
+}

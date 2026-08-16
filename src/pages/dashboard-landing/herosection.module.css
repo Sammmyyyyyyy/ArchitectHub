@@ -1,0 +1,655 @@
+/* =========================================
+   MAIN HERO SECTION
+   ========================================= */
+
+.heroSection {
+  width: 100%;
+
+  padding: 20px 28px 35px;
+
+  box-sizing: border-box;
+
+  font-family: Google Sans;
+}
+
+/* =========================================
+   WELCOME CARD
+   ========================================= */
+
+.welcomeCard {
+  width: 100%;
+  min-height: 250px;
+  padding: 0px 0px 0px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+
+  background-color: #fbfbfb;
+
+  border: 1px solid #edf1f4;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 8px rgba(20, 40, 60, 0.025);
+
+  overflow: hidden;
+}
+
+.welcomeContent {
+  display: flex;
+  flex-direction: column;
+
+  z-index: 1;
+}
+
+.welcomeContent h1 {
+  margin: 0;
+
+  color: #101828;
+
+  font-size: 27px;
+  font-weight: 700;
+
+  letter-spacing: -0.7px;
+}
+
+.welcomeContent p {
+  margin: 12px 0 0 4px;
+
+  color: #25354d;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* =========================================
+   WELCOME BUTTONS
+   ========================================= */
+
+.welcomeButtons {
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+
+  margin-top: 40px;
+}
+
+.primaryButton,
+.secondaryButton {
+  height: 56px;
+  padding: 0 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+
+  border-radius: 8px;
+
+  font-family: Google Sans;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.primaryButton {
+  min-width: 200px;
+
+  border: none;
+
+  background-color: #009b92;
+
+  color: #ffffff;
+}
+
+.primaryButton:hover {
+  background-color: #00877f;
+
+  transform: translateY(-1px);
+
+  box-shadow: 0 5px 14px rgba(0, 155, 146, 0.18);
+}
+
+.secondaryButton {
+  min-width: 100px;
+
+  border: 1px solid #cbd5e1;
+
+  background-color: #ffffff;
+
+  color: #172640;
+}
+
+.secondaryButton:hover {
+  background-color: #f5fbfa;
+
+  border-color: #009b92;
+}
+
+.buttonIcon {
+  width: 18px;
+  height: 18px;
+  padding-bottom: 22px;
+  flex-shrink: 0;
+}
+
+/* =========================================
+   HERO ILLUSTRATION
+   ========================================= */
+
+.welcomeIllustration {
+  width: 45%;
+  height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustrationPlaceholder {
+  width: 90%;
+  height: 85%;
+
+  border-radius: 10px;
+
+  /* Image / illustration goes here */
+
+  background-color: #f3faf9;
+
+  border: 1px dashed #a8dcd8;
+
+  opacity: 0.8;
+}
+
+/* =========================================
+   STATS CARD
+   ========================================= */
+
+.statsCard {
+  width: 100%;
+  min-height: 118px;
+
+  margin-top: 16px;
+
+  padding: 20px 32px;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+
+  border: 1px solid #edf1f4;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 8px rgba(20, 40, 60, 0.025);
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+
+  padding: 0 25px;
+
+  border-right: 1px solid #e7edf2;
+}
+
+.statItem:first-child {
+  padding-left: 0;
+}
+
+.statItem:last-child {
+  border-right: none;
+}
+
+.statIcon {
+  width: 58px;
+  height: 58px;
+
+  flex-shrink: 0;
+
+  margin-right: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+/* =========================================
+   ICON COLORS
+   ========================================= */
+
+.greenIcon {
+  background-color: #e4f8f5;
+  color: #009b8f;
+}
+
+/* Blue */
+.blueIcon {
+  background-color: #e8f1ff;
+  color: #1677ff;
+}
+
+/* Orange */
+.orangeIcon {
+  background-color: #fff0e3;
+  color: #ff7a00;
+}
+
+/* Purple */
+.purpleIcon {
+  background-color: #f0e9ff;
+  color: #7c3aed;
+}
+.statInfo h2 {
+  margin: 0 0 3px;
+
+  color: #101828;
+
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.statInfo h3 {
+  margin: 0;
+
+  color: #16233b;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.statInfo p {
+  margin: 5px 0 0;
+
+  color: #53647e;
+
+  font-size: 11px;
+}
+
+/* =========================================
+   LOWER SECTION
+   ========================================= */
+
+.lowerSection {
+  width: 100%;
+
+  margin-top: 18px;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 2.1fr) minmax(300px, 1fr);
+
+  gap: 18px;
+}
+
+/* =========================================
+   CARDS
+   ========================================= */
+
+.nextStepsCard,
+.featuresCard {
+  padding: 24px 27px;
+
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+
+  border: 1px solid #edf1f4;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 8px rgba(20, 40, 60, 0.025);
+}
+
+.sectionHeading h2 {
+  margin: 0;
+
+  color: #101828;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.sectionHeading p {
+  margin: 7px 0 0;
+
+  color: #40516c;
+
+  font-size: 12px;
+}
+
+/* =========================================
+   STEPS
+   ========================================= */
+
+.stepsList {
+  margin-top: 17px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.stepItem {
+  min-height: 70px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  padding: 10px 15px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #e4ebf0;
+
+  border-radius: 9px;
+
+  background-color: #ffffff;
+}
+
+.stepNumber {
+  width: 32px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  margin-right: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background-color: #dcf6f3;
+
+  color: #009b92;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.stepIcon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  margin-right: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.stepContent {
+  flex: 1;
+
+  min-width: 0;
+}
+
+.stepContent h3 {
+  margin: 0;
+
+  color: #101828;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.stepContent p {
+  margin: 5px 0 0;
+
+  color: #53647e;
+
+  font-size: 11px;
+}
+
+.stepStatus {
+  flex-shrink: 0;
+
+  margin-left: 15px;
+
+  padding: 7px 10px;
+
+  border-radius: 6px;
+
+  background-color: #e4f7f4;
+
+  color: #008d85;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* =========================================
+   TIP
+   ========================================= */
+
+.tipBox {
+  margin-top: 16px;
+
+  padding-top: 14px;
+
+  display: flex;
+  align-items: center;
+
+  border-top: 1px solid #e4ebf0;
+}
+
+.tipIcon {
+  width: 22px;
+  height: 22px;
+
+  margin-right: 10px;
+
+  /* Icon placeholder */
+}
+
+.tipBox p {
+  margin: 0;
+
+  color: #53647e;
+
+  font-size: 11px;
+}
+
+.tipBox strong {
+  color: #008d85;
+}
+
+/* =========================================
+   FEATURES
+   ========================================= */
+
+.featuresList {
+  margin-top: 22px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 21px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+}
+
+.featureIcon {
+  width: 54px;
+  height: 54px;
+
+  flex-shrink: 0;
+
+  margin-right: 17px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.featureItem h3 {
+  margin: 3px 0 0;
+
+  color: #17233b;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.featureItem p {
+  max-width: 250px;
+
+  margin: 6px 0 0;
+
+  color: #53647e;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+/* =========================================
+   FEATURE FOOTER
+   ========================================= */
+
+.featureFooter {
+  margin-top: 24px;
+
+  padding-top: 19px;
+
+  border-top: 1px solid #e4ebf0;
+
+  text-align: center;
+
+  color: #008d85;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 1100px) {
+  .welcomeCard {
+    min-height: 230px;
+  }
+
+  .welcomeIllustration {
+    width: 40%;
+  }
+
+  .statsCard {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+  }
+
+  .statItem:nth-child(2) {
+    border-right: none;
+  }
+
+  .statItem:nth-child(3) {
+    padding-left: 0;
+  }
+
+  .lowerSection {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .heroSection {
+    padding: 15px;
+  }
+
+  .welcomeCard {
+    padding: 25px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .welcomeIllustration {
+    display: none;
+  }
+
+  .welcomeButtons {
+    flex-direction: column;
+
+    align-items: stretch;
+
+    width: 100%;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+  }
+
+  .statsCard {
+    grid-template-columns: 1fr;
+
+    padding: 15px;
+  }
+
+  .statItem {
+    padding: 15px 0;
+
+    border-right: none;
+
+    border-bottom: 1px solid #e7edf2;
+  }
+
+  .statItem:last-child {
+    border-bottom: none;
+  }
+
+  .stepItem {
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+  }
+
+  .stepStatus {
+    margin-left: 63px;
+    margin-top: 5px;
+  }
+}
+.primaryButton {
+  background:
+    radial-gradient(rgba(0, 0, 0, 0.2) 2px, transparent 8px),
+    linear-gradient(to top, #014e48 0%, #00756d 50%, #009b92 100%);
+  background-size:
+    5px 5px,
+    100% 100%;
+}

@@ -1,0 +1,119 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+
+  padding: 16px 16px;
+
+  background-color: #fbfbfb;
+
+  border-right: 1px solid #e5e9ef;
+
+  display: inline-flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  font-family: Google Sans;
+}
+
+/* =========================
+   BRAND
+   ========================= */
+
+.brand {
+  display: flex;
+  align-items: center;
+
+  padding: 0 10px;
+
+  margin-bottom: 36px;
+}
+
+.brandLogo img {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.brandName {
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #050505;
+
+  letter-spacing: -0.5px;
+
+  white-space: nowrap;
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.navigation {
+  width: 100%;
+}
+
+.navigation ul {
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  width: 100%;
+  height: 42px;
+
+  padding: 0 16px;
+
+  margin-bottom: 4px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  border-radius: 11px;
+
+  box-sizing: border-box;
+
+  color: #25354d;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+/* Icon placeholder */
+
+.navIcon {
+  display: inline-flex;
+  align-items: center;
+  /* Add your icons/SVG here */
+}
+
+/* Active item */
+
+.navItem.active {
+  background-color: #e7f6f4;
+
+  color: #008f87;
+
+  font-weight: 600;
+}
+
+/* Hover */
+
+.navItem:hover {
+  background-color: #e7f6f4;
+
+  color: #008f87;
+}

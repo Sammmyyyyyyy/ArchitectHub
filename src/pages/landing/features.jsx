@@ -1,6 +1,6 @@
 import styles from "./features.module.css";
-import Card from "./card";
-import Tag from "./tag";
+import Card from "@/components/card";
+import Tag from "@/components/tag";
 import { ListTodo } from "lucide-react";
 import { RotateCcwClock } from "lucide-react";
 import { ReplaceAll } from "lucide-react";

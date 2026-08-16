@@ -1,4 +1,4 @@
-import logo from "./assets/logo-3.png";
+import logo from "@/assets/logo-3.png";
 import styles from "./navbar.module.css";
 import GetStartedBtn from "./getstartedbtn.jsx";
 function Navbar() {

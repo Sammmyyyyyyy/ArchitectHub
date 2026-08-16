@@ -1,0 +1,9 @@
+.RightSection {
+  margin-left: 250px;
+  width: calc(100% - 268px);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100vw;
+  height: 100vh;
+}

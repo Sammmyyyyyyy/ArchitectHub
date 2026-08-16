@@ -1,6 +1,6 @@
 import styles from "./howitworks.module.css";
-import Tag from "./tag";
-import Card from "./card";
+import Tag from "@/components/tag";
+import Card from "@/components/card";
 
 import {
   FilePlus2,

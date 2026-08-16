@@ -1,10 +1,10 @@
 import styles from "./usecases.module.css";
-import Card from "./card";
-import Tag from "./tag";
+import Card from "@/components/card";
+import Tag from "@/components/tag";
 
 import { Rocket, UsersRound, Building2 } from "lucide-react";
 
-import dashboard from "./assets/dashboard.png";
+import dashboard from "@/assets/dashboard.png";
 
 function UseCases() {
   const useCases = [

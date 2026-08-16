@@ -1,21 +1,23 @@
-import Navbar from "./navbar";
 import "./App.css";
-import HeroSection from "./herosection";
-import Marquee from "./marquee";
-import Features from "./features";
-import HowItWorks from "./howitworks";
-import UseCases from "./usecases";
-import Footer from "./footer";
+import MainSection from "./pages/dashboard-landing/layout";
+// import Navbar from "./components/navbar";
+// import HeroSection from "./pages/landing/herosection";
+// import Marquee from "./components/marquee";
+// import Features from "./pages/landing/features";
+// import HowItWorks from "./pages/landing/howitworks";
+// import UseCases from "./pages/landing/usecases";
+// import Footer from "./components/footer";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <HeroSection />
       <Marquee></Marquee>
       <Features></Features>
       <HowItWorks></HowItWorks>
       <UseCases></UseCases>
-      <Footer></Footer>
+      <Footer></Footer> */}
+      <MainSection />
     </>
   );
 }

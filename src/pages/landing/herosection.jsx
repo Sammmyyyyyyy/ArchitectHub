@@ -1,11 +1,11 @@
 import styles from "./herosection.module.css";
-import Tag from "./tag";
-import GetStartedBtn from "./getstartedbtn";
+import Tag from "@/components/tag";
+import GetStartedBtn from "@/components/getstartedbtn";
 import { Play } from "lucide-react";
 import { MessageCircleCheck } from "lucide-react";
 import { User } from "lucide-react";
 import { ShieldCheck } from "lucide-react";
-import dashboard_preview from "./assets/dashboard.png";
+import dashboard_preview from "@/assets/dashboard.png";
 function HeroSection() {
   return (
     <div className={styles.hero}>

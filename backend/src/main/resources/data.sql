@@ -1,0 +1,6 @@
+-- INSERT INTO users
+-- (user_name, user_email, user_password, user_role)
+-- VALUES
+--     ('Karan', 'dipesh@gmail.com', 'password123', 'ADMIN'),
+--     ('Rahul', 'rahul@gmail.com', 'password456', 'USER'),
+--     ('Aman', 'aman@gmail.com', 'password789', 'USER');

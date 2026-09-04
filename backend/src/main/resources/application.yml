@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ArchitectHub
+
+  profiles:
+    active: dev
+
+server:
+  port: 8080
